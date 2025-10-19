@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4A446DD2-BA1A-BCE6-08B7-6FB370F9C37E" name="Posao_Zaposleni">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 21:21:11 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Zaposleni_Zaposleni_ID" id="6E4E37D3-DA2E-2B21-E326-8F307D330CB0">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 21:21:11 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AF24D063-72F8-8D32-A776-E0C0FEDF9A33" referredColumn="7537C57E-3BF7-17A1-1CB6-00F1968629D4"/>
+</associations>
+</Column>
+<Column name="Posao_Posao_ID" id="C5B56267-530E-3833-9FAE-55FD4B203B8D">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 21:21:11 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CBB8F306-E09D-A3DC-D254-4BAC50060672" referredColumn="0E4F6799-EF0C-C49C-917C-21E81A204E88"/>
+</associations>
+</Column>
+<Column name="Datum_Pocetka" id="73427D49-E8F2-B6EC-49A5-13D11E16BA49">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 21:28:36 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_Kraja" id="A213D30D-ED46-D182-7DC0-76FC76923CED">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 21:28:36 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Plata" id="E3103119-A0FA-B999-8E46-92A7508CED6D">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 21:29:07 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A05DDC5-E0A1-7CC5-A92E-28970CFA99D1" name="Relation_18_PK">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 21:21:11 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E4E37D3-DA2E-2B21-E326-8F307D330CB0"/>
+<colUsage columnID="C5B56267-530E-3833-9FAE-55FD4B203B8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7AD16EC1-6737-F56C-9A94-123AC735B0DB" name="Relation_18_Zaposleni_FK">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 21:21:11 UTC</createdTime>
+<generatorID>8C98AAEA-7DCB-9919-8F48-BCD99C58F8AD</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E4E37D3-DA2E-2B21-E326-8F307D330CB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="032FA9CB-9F9F-CB84-125C-14C471F8C2E1" name="Relation_18_Posao_FK">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 21:21:11 UTC</createdTime>
+<generatorID>8C98AAEA-7DCB-9919-8F48-BCD99C58F8AD</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5B56267-530E-3833-9FAE-55FD4B203B8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

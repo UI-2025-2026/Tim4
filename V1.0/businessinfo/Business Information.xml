@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="32E8747B-1BE2-1D77-348F-F642D1677144">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 08:33:01 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

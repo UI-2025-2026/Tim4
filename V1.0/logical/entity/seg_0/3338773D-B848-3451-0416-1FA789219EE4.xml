@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3338773D-B848-3451-0416-1FA789219EE4" name="Radna_Operacija">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 10:59:49 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<engineerTo>
+<item key="5AE12203-804C-CEFA-5C9D-C63CF6AF2D86" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Radna_Operacija_ID" id="1563ED3A-E227-FCD1-60C4-851F6C43CC85">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 11:00:09 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<engineerTo>
+<item key="5AE12203-804C-CEFA-5C9D-C63CF6AF2D86" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Naziv_Operacije" id="0ED8A65C-DEAE-88A4-2FBB-009C23B90150">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 21:22:56 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<engineerTo>
+<item key="5AE12203-804C-CEFA-5C9D-C63CF6AF2D86" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tip_Operacije" id="08299DCF-8A9C-1A4D-0196-28AE3B68A8F5">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 21:23:07 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<engineerTo>
+<item key="5AE12203-804C-CEFA-5C9D-C63CF6AF2D86" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C3559698-6393-44F6-66CB-22870556368E" name="Radna_Operacija PK">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 11:00:23 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="5AE12203-804C-CEFA-5C9D-C63CF6AF2D86" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1563ED3A-E227-FCD1-60C4-851F6C43CC85</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

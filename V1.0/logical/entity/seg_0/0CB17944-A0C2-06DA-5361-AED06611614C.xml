@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0CB17944-A0C2-06DA-5361-AED06611614C" name="Automobil">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 08:35:49 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<engineerTo>
+<item key="5AE12203-804C-CEFA-5C9D-C63CF6AF2D86" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Model_A_ID" id="F7DBCE61-59C4-D30C-A6C5-4EE2938D0772">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 08:41:41 UTC</createdTime>
+<generatorID>615E46A5-2E7A-899A-C754-EEC61BD0BB31</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<engineerTo>
+<item key="5AE12203-804C-CEFA-5C9D-C63CF6AF2D86" value="true"/>
+</engineerTo>
+<referedAttribute>86FC6ACD-3A9E-749D-7211-BACD13D33305</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Marka_A_ID" id="50854F27-968C-9014-6763-2F2EFB883160">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 08:43:57 UTC</createdTime>
+<generatorID>615E46A5-2E7A-899A-C754-EEC61BD0BB31</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<engineerTo>
+<item key="5AE12203-804C-CEFA-5C9D-C63CF6AF2D86" value="true"/>
+</engineerTo>
+<referedAttribute>53313B46-195B-CDEE-34D8-973476268812</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Auto_ID" id="8BC9B459-5804-5DD5-3A30-79091A0320F4">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 08:59:32 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<engineerTo>
+<item key="5AE12203-804C-CEFA-5C9D-C63CF6AF2D86" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Broj_Sasije" id="9A073B76-2F26-8EA3-B34E-ED1A4E73603D">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 08:59:52 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<engineerTo>
+<item key="5AE12203-804C-CEFA-5C9D-C63CF6AF2D86" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>17</dataTypeSize>
+<ownDataTypeParameters>17,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Godina_Proizvodnje" id="EB33E0E0-643E-E4BB-892C-7D0D5975E362">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 09:01:49 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<engineerTo>
+<item key="5AE12203-804C-CEFA-5C9D-C63CF6AF2D86" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tip_Goriva" id="E47C6AB0-2B40-D436-3446-67839869519B">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 09:02:23 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<engineerTo>
+<item key="5AE12203-804C-CEFA-5C9D-C63CF6AF2D86" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Broj_Motora" id="228028EE-877D-11F6-BAEF-C29A9893C418">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 09:03:17 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<engineerTo>
+<item key="5AE12203-804C-CEFA-5C9D-C63CF6AF2D86" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>17</dataTypeSize>
+<ownDataTypeParameters>17,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Klijent_ID" id="87BA79CF-5021-FDA5-2CA0-3E951405122A">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 09:05:32 UTC</createdTime>
+<generatorID>DB9A78CD-91FC-BED7-34D2-58261E0BA981</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<engineerTo>
+<item key="5AE12203-804C-CEFA-5C9D-C63CF6AF2D86" value="true"/>
+</engineerTo>
+<referedAttribute>0AF5A33A-699F-D572-3F46-EC9736D4AD29</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datum_Prve_Registracije" id="073DB47B-182E-69D6-E0D3-B29FA44A5096">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 10:51:45 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<engineerTo>
+<item key="5AE12203-804C-CEFA-5C9D-C63CF6AF2D86" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B2A43FC5-F6B6-A2D0-DC6D-D0471638A0AE" name="Automobil PK">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 08:41:41 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="5AE12203-804C-CEFA-5C9D-C63CF6AF2D86" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F7DBCE61-59C4-D30C-A6C5-4EE2938D0772</attributeRef>
+<attributeRef>50854F27-968C-9014-6763-2F2EFB883160</attributeRef>
+<attributeRef>8BC9B459-5804-5DD5-3A30-79091A0320F4</attributeRef>
+<attributeRef>87BA79CF-5021-FDA5-2CA0-3E951405122A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

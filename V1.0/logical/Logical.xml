@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="FC882138-2EEB-4038-D71B-6B812973A050" mainViewID="96B812A0-8047-E65A-BA19-DEADA0C0367D">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 08:33:01 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

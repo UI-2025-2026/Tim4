@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9816B5E0-B241-E4CA-44B7-C915049C0FCE" name="Faktura_Dobavljaca">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 10:15:58 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<engineerTo>
+<item key="5AE12203-804C-CEFA-5C9D-C63CF6AF2D86" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Dobavljac_ID" id="44B6405F-3B77-B3C7-A90A-F77775F7EE9A">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 10:43:39 UTC</createdTime>
+<generatorID>1F525D15-76B2-7CD7-F0EB-9F830D0DD23B</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<engineerTo>
+<item key="5AE12203-804C-CEFA-5C9D-C63CF6AF2D86" value="true"/>
+</engineerTo>
+<referedAttribute>67E585F3-12E2-0AE4-0E1A-0C890ECD1C5B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Faktura_ID" id="1203188E-220F-8C25-F69C-9B1108439882">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 11:13:00 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<engineerTo>
+<item key="5AE12203-804C-CEFA-5C9D-C63CF6AF2D86" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datum_Izdavanja" id="C8A766A3-17ED-E4A0-4727-9E51999DA437">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 11:12:29 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<engineerTo>
+<item key="5AE12203-804C-CEFA-5C9D-C63CF6AF2D86" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Racunovodstvo_ID" id="A59FB93E-81C5-D35F-71AD-504A01F0C5D3">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 22:11:58 UTC</createdTime>
+<generatorID>67F0ED77-91A0-CC77-09ED-1033C49207D8</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<engineerTo>
+<item key="5AE12203-804C-CEFA-5C9D-C63CF6AF2D86" value="true"/>
+</engineerTo>
+<referedAttribute>6C462218-A240-E1A4-2FC1-495E88FB05CA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C35DBF45-20B0-AF69-287B-9ED6394CF05C" name="Faktura_Dobavljaca PK">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 10:42:14 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="5AE12203-804C-CEFA-5C9D-C63CF6AF2D86" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>44B6405F-3B77-B3C7-A90A-F77775F7EE9A</attributeRef>
+<attributeRef>1203188E-220F-8C25-F69C-9B1108439882</attributeRef>
+<attributeRef>A59FB93E-81C5-D35F-71AD-504A01F0C5D3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

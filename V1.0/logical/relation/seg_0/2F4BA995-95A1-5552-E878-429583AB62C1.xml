@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Faktura_Roba_Stavka" directorySegmentName="seg_0" id="2F4BA995-95A1-5552-E878-429583AB62C1">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 22:10:07 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<engineerTo>
+<item key="5AE12203-804C-CEFA-5C9D-C63CF6AF2D86" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>E3260939-138C-8BFC-03B7-41EA6256A782</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9816B5E0-B241-E4CA-44B7-C915049C0FCE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

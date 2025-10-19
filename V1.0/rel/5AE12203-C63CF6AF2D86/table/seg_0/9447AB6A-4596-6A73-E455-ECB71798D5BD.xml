@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9447AB6A-4596-6A73-E455-ECB71798D5BD" name="Faktura_Roba_Stavka">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 22:15:21 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Roba_Roba_ID" id="3A240FA8-E9FF-8582-9DB0-187792329FBB">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 22:15:21 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="310B27D6-68C7-3D15-04B3-E6652D3BA001" referredColumn="11D2BD95-6061-93FA-85E4-0A5A5B7D872E"/>
+</associations>
+</Column>
+<Column name="Faktura_Dobavljaca_Dobavljac_ID" id="57716C6E-47DD-E7C7-DA8B-E77AFED9CEAA">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 22:15:21 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1B3AB78-0EE2-E14E-7A4D-C303B71B1B19" referredColumn="857AC0EF-207E-B320-D8E6-67E44B759DD1"/>
+</associations>
+</Column>
+<Column name="Faktura_Dobavljaca_Faktura_ID" id="DBE18C1F-E62B-8918-0F0D-534520A89EEC">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 22:15:21 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1B3AB78-0EE2-E14E-7A4D-C303B71B1B19" referredColumn="C7ABF28B-C344-E581-F6F2-6FF2D157397C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3652D7F9-7EFC-79B0-145E-C509550B4D25" name="Faktura_Roba_Stavka_PK">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 22:15:21 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A240FA8-E9FF-8582-9DB0-187792329FBB"/>
+<colUsage columnID="57716C6E-47DD-E7C7-DA8B-E77AFED9CEAA"/>
+<colUsage columnID="DBE18C1F-E62B-8918-0F0D-534520A89EEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D1110A31-D410-107B-D0DC-8DE26ACA80DF" name="Faktura_Roba_Stavka_Roba_FK">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 22:15:21 UTC</createdTime>
+<generatorID>2F4BA995-95A1-5552-E878-429583AB62C1</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A240FA8-E9FF-8582-9DB0-187792329FBB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D206C13-E168-34AB-FE1D-A955497631F1" name="Faktura_Roba_Stavka_Faktura_Dobavljaca_FK">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 22:15:21 UTC</createdTime>
+<generatorID>2F4BA995-95A1-5552-E878-429583AB62C1</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57716C6E-47DD-E7C7-DA8B-E77AFED9CEAA"/>
+<colUsage columnID="DBE18C1F-E62B-8918-0F0D-534520A89EEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

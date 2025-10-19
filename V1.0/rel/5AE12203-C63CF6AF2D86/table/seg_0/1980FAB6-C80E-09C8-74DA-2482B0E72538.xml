@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1980FAB6-C80E-09C8-74DA-2482B0E72538" name="Radna_Operacija">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 11:18:31 UTC</createdTime>
+<generatorID>3338773D-B848-3451-0416-1FA789219EE4</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Radna_Operacija_ID" id="4AA5D89C-F825-47FF-87BD-BE06C7FADDFF">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 11:18:31 UTC</createdTime>
+<generatorID>1563ED3A-E227-FCD1-60C4-851F6C43CC85</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Naziv_Operacije" id="E1F264BD-1822-8213-3625-CE129FDE23B5">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 21:59:01 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tip_Operacije" id="2B9E11AA-113E-2E11-BAE8-2B17A0B34606">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 21:59:01 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7B5D1FB4-B333-049F-9A73-2519CA13AC92" name="Radna_Operacija_PK">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 11:18:31 UTC</createdTime>
+<generatorID>C3559698-6393-44F6-66CB-22870556368E</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AA5D89C-F825-47FF-87BD-BE06C7FADDFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

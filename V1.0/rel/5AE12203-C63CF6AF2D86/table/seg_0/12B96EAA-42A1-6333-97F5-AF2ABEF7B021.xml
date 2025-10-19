@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="12B96EAA-42A1-6333-97F5-AF2ABEF7B021" name="Zaposleni">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 10:36:21 UTC</createdTime>
+<generatorID>2F31EE8D-3085-72C3-8C0A-ADE9CF10AD8E</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Zaposleni_ID" id="7537C57E-3BF7-17A1-1CB6-00F1968629D4">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 10:36:21 UTC</createdTime>
+<generatorID>5490D45C-3542-0F96-A8AE-7397BE2D089E</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ime" id="590CAE2D-5B88-84EC-A6E6-E463CA6E05F5">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 10:36:21 UTC</createdTime>
+<generatorID>C4336675-3DDE-9457-020E-621EC751D614</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prezime" id="765B395C-07BA-9E1E-2D9F-E1FB3C8CF753">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 10:36:21 UTC</createdTime>
+<generatorID>AEEE64BD-5CC4-2F19-EE5E-096E86BE610C</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JMBG" id="F66C2272-DA84-8B12-1375-4A3718381FF9">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 10:36:21 UTC</createdTime>
+<generatorID>345E6781-B3AC-079C-08BC-23354F5B1130</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Broj_Telefona" id="EFCA8FAA-5EED-D5C5-F980-A73FD664BF0C">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 10:36:21 UTC</createdTime>
+<generatorID>984CA641-37EA-9360-B7A4-C4B8ECA4B0D4</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adresa_Stanovanja" id="EC97F07F-E954-86A2-0A9B-3B8E7204E1DB">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 10:36:21 UTC</createdTime>
+<generatorID>A7AA20C3-609B-24C4-A6D4-1DC1CA53E589</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="F781F5C4-3746-0E8C-C4C1-6415653CA51E">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 10:36:21 UTC</createdTime>
+<generatorID>C141D1C6-6B9B-13B0-2856-2A92646A05D9</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pol" id="5D40D065-AACD-F691-EF9F-7C44F3035ED7">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 10:36:21 UTC</createdTime>
+<generatorID>4272C327-ACC8-41F6-A3F9-A37DF2534DE8</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_Rodjenja" id="4C57CAA6-8CED-4437-2DB3-F8F1B4C31FE8">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 10:36:21 UTC</createdTime>
+<generatorID>79C8E6DC-EC0D-8A35-6AE7-A66AD702A55F</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_Zaposlenja" id="85424D9F-9222-7804-BD37-D33B47107FD3">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 10:36:21 UTC</createdTime>
+<generatorID>7B73EA90-DEE6-1175-D9E1-3FC40FD4551F</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C0A93B7A-0837-E102-64BE-D0CDB9113DAB" name="Zaposleni_PK">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 10:36:21 UTC</createdTime>
+<generatorID>D2515ECF-E5C6-4A5B-71AA-A4DDFC2C28AB</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7537C57E-3BF7-17A1-1CB6-00F1968629D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91147983-14AC-8D31-B793-5A232F87454D" name="Zaposleni__IDX">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 10:36:21 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>CB4EFDB5-E80F-E161-1789-7F278739BFB0</relationGeneratorID>
+</ind_PK_UK>
+</indexes>
+</Table>

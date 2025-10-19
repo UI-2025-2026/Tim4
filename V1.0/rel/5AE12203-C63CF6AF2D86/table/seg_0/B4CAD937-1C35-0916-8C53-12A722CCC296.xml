@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B4CAD937-1C35-0916-8C53-12A722CCC296" name="Magacin">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 10:36:21 UTC</createdTime>
+<generatorID>95170183-DBC1-9B73-1B54-7A8A0B40FBAF</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Magacin_ID" id="53EE7172-0B5A-60F6-7185-40DD147578F3">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 10:36:21 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Magacin_ID1" id="4353D5DB-E4F1-6769-14A5-A9997F40DE51">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 22:15:21 UTC</createdTime>
+<generatorID>2CBD2C86-1F94-DFD5-2F97-7AACFBA38B65</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adresa" id="6816E388-56C3-5679-CDCF-0C7952B039AD">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 22:15:21 UTC</createdTime>
+<generatorID>637D8AEB-1B45-4F45-7EC2-4D22EF7C878E</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B98E57DA-F263-0863-8FD0-7E6DD9651BC6" name="Magacin_PK">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 10:36:21 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="53EE7172-0B5A-60F6-7185-40DD147578F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CBB8F306-E09D-A3DC-D254-4BAC50060672" containerWithKeyObject="4A446DD2-BA1A-BCE6-08B7-6FB370F9C37E" localFKIndex="032FA9CB-9F9F-CB84-125C-14C471F8C2E1" name="Relation_18_Posao_FK">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 21:21:11 UTC</createdTime>
+<generatorID>8C98AAEA-7DCB-9919-8F48-BCD99C58F8AD</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<referredTableLongName>Posao</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>75BB9D8D-40B7-3C5C-D9CA-71F945BDBBD1</referredTableID>
+<keyObject>954324AE-EB2F-EF51-0946-B10104E9A676</keyObject>
+<referredKeyID>954324AE-EB2F-EF51-0946-B10104E9A676</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Posao_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

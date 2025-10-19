@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B586E212-99F9-5555-F081-AF978F54975F" name="Automobil">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 08:52:34 UTC</createdTime>
+<generatorID>0CB17944-A0C2-06DA-5361-AED06611614C</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Model_Automobil_Model_A_ID" id="390F632F-A8C7-DA7D-61FF-1E21FDF6D43D">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 08:52:34 UTC</createdTime>
+<generatorID>F7DBCE61-59C4-D30C-A6C5-4EE2938D0772</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE2B7FAE-D9C1-FE19-3C34-4BB29BBB441D" referredColumn="5272B195-78BB-E07D-950F-745235EDA8AA"/>
+</associations>
+</Column>
+<Column name="Model_Automobil_Marka_A_ID" id="872497A5-E40A-CF2C-00C5-75A6B2DFA90F">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 08:52:34 UTC</createdTime>
+<generatorID>50854F27-968C-9014-6763-2F2EFB883160</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE2B7FAE-D9C1-FE19-3C34-4BB29BBB441D" referredColumn="EA708BC3-2329-5828-0190-4DBA94C2F02F"/>
+</associations>
+</Column>
+<Column name="Auto_ID" id="593C99EB-4A58-5000-F37D-32007B536549">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 09:06:11 UTC</createdTime>
+<generatorID>8BC9B459-5804-5DD5-3A30-79091A0320F4</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Broj_Sasije" id="472AD89F-01DC-8BB0-76AE-F05EBAA310A8">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 09:06:11 UTC</createdTime>
+<generatorID>9A073B76-2F26-8EA3-B34E-ED1A4E73603D</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>17</dataTypeSize>
+<ownDataTypeParameters>17,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Godina_Proizvodnje" id="A7BE1366-0E59-A5EF-FFDD-7FE62D779A16">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 09:06:11 UTC</createdTime>
+<generatorID>EB33E0E0-643E-E4BB-892C-7D0D5975E362</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tip_Goriva" id="C0CAB30A-5AA5-7635-C7D6-D9C5DDC250E8">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 09:06:11 UTC</createdTime>
+<generatorID>E47C6AB0-2B40-D436-3446-67839869519B</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Broj_Motora" id="1EB4F3BD-239F-57EB-9616-06EA4BFC0DF3">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 09:06:11 UTC</createdTime>
+<generatorID>228028EE-877D-11F6-BAEF-C29A9893C418</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>17</dataTypeSize>
+<ownDataTypeParameters>17,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Klijent_Klijent_ID" id="1BA164C1-0DAD-234B-E291-09EA6AFF2D61">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 09:06:11 UTC</createdTime>
+<generatorID>87BA79CF-5021-FDA5-2CA0-3E951405122A</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D2FA9DB0-2868-05FB-F569-DD6F0CAA029A" referredColumn="937B3DFE-7774-7DD5-226C-2087EF3FBDDB"/>
+</associations>
+</Column>
+<Column name="Datum_Prve_Registracije" id="2865DDC9-3BD1-1BC4-47C4-9F73D862AEF3">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 11:18:31 UTC</createdTime>
+<generatorID>073DB47B-182E-69D6-E0D3-B29FA44A5096</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="97FF5B22-6C14-921A-3BCF-71CB738F555C" name="Automobil_PK">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 08:52:34 UTC</createdTime>
+<generatorID>B2A43FC5-F6B6-A2D0-DC6D-D0471638A0AE</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="390F632F-A8C7-DA7D-61FF-1E21FDF6D43D"/>
+<colUsage columnID="872497A5-E40A-CF2C-00C5-75A6B2DFA90F"/>
+<colUsage columnID="593C99EB-4A58-5000-F37D-32007B536549"/>
+<colUsage columnID="1BA164C1-0DAD-234B-E291-09EA6AFF2D61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="846ABB12-35AA-7BA4-CD66-E44E589E7E5C" name="Automobil_Model_Automobil_FK">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 08:52:34 UTC</createdTime>
+<generatorID>615E46A5-2E7A-899A-C754-EEC61BD0BB31</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="390F632F-A8C7-DA7D-61FF-1E21FDF6D43D"/>
+<colUsage columnID="872497A5-E40A-CF2C-00C5-75A6B2DFA90F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F36D8BC-E40A-CC2F-E266-9AD8BB2760AF" name="Automobil_Klijent_FK">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 09:06:11 UTC</createdTime>
+<generatorID>DB9A78CD-91FC-BED7-34D2-58261E0BA981</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1BA164C1-0DAD-234B-E291-09EA6AFF2D61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CB29B149-7513-EFF4-1977-1EFE2B2E7B75" containerWithKeyObject="7697561F-02EE-BB5A-DB78-47E4EEAE9B45" localFKIndex="785AC676-80F0-B437-27B9-CE7818E803A8" name="Radni_Nalog_Stavka_Radna_Operacija_FK">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 22:15:21 UTC</createdTime>
+<generatorID>8AA34EF2-8BCC-E264-6D87-7D7BF88A6EE9</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<referredTableLongName>Radna_Operacija</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1980FAB6-C80E-09C8-74DA-2482B0E72538</referredTableID>
+<keyObject>7B5D1FB4-B333-049F-9A73-2519CA13AC92</keyObject>
+<referredKeyID>7B5D1FB4-B333-049F-9A73-2519CA13AC92</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Radna_Operacija_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

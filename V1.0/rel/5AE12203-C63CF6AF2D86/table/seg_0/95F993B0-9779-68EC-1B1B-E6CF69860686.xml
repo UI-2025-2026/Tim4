@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="95F993B0-9779-68EC-1B1B-E6CF69860686" name="Klijent">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 08:52:34 UTC</createdTime>
+<generatorID>2EA5E7AC-1135-1F5D-B247-EDB5F0998602</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Klijent_ID" id="937B3DFE-7774-7DD5-226C-2087EF3FBDDB">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 08:52:34 UTC</createdTime>
+<generatorID>0AF5A33A-699F-D572-3F46-EC9736D4AD29</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ime" id="A14BB31F-6BA6-5A38-EB54-FAF82FF9ECF5">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 08:52:34 UTC</createdTime>
+<generatorID>0B65A733-957E-2DA2-49D5-4EE502402439</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prezime" id="9A8BE77D-1863-3813-9B8A-03D1B146E3D5">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 08:52:34 UTC</createdTime>
+<generatorID>41D3F88A-2B17-5A42-880F-94D784D64940</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Broj_Telefona" id="908ED1CE-8864-BD76-B05F-7607A4702F56">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 08:52:34 UTC</createdTime>
+<generatorID>F8FFAA7F-4DC7-6F13-5B73-01279F98D1D0</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="577E25FC-7C4B-01E4-446E-9D7FD91E8AD8">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 08:52:34 UTC</createdTime>
+<generatorID>33D32F6C-0168-3C42-A597-60A216255A01</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="83CB75B5-3E4C-4CCD-D07E-27E93EF69CF4" name="Klijent_PK">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 08:52:34 UTC</createdTime>
+<generatorID>3D8C10C3-BBFA-2A16-09D4-45F26BBD132A</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="937B3DFE-7774-7DD5-226C-2087EF3FBDDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

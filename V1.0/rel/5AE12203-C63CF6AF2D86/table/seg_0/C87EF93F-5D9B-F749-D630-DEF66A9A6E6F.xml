@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C87EF93F-5D9B-F749-D630-DEF66A9A6E6F" name="Roba">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 10:36:21 UTC</createdTime>
+<generatorID>E3260939-138C-8BFC-03B7-41EA6256A782</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Roba_ID" id="11D2BD95-6061-93FA-85E4-0A5A5B7D872E">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 11:18:31 UTC</createdTime>
+<generatorID>DB2A6623-B49C-0061-DAB2-25726FA20161</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Naziv" id="E0F14938-6487-4E63-4926-9309515DC20F">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 11:18:31 UTC</createdTime>
+<generatorID>21766ABB-4A58-451F-8004-5BBC0E83808F</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jedinica_Mere" id="7828ACDF-5D95-2FE7-0759-59073BE14EB9">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 11:18:31 UTC</createdTime>
+<generatorID>D4C6E6AA-0297-AF1E-6B06-D0CC56C5C83E</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Magacin_Magacin_ID" id="04E8CB5F-0A31-C7C0-A823-12320FD6901C">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 22:15:21 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7D657491-D184-5FFD-7BC1-F486B60E493B" referredColumn="53EE7172-0B5A-60F6-7185-40DD147578F3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C1DCEBE3-32A1-D893-2F01-E0A169713A18" name="Roba_PK">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 11:18:31 UTC</createdTime>
+<generatorID>D3D9D240-F7BC-18ED-5595-E6E28814E4A1</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11D2BD95-6061-93FA-85E4-0A5A5B7D872E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="84D57261-4646-1739-A65E-A8F433C39437" name="Roba_Magacin_FK">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 22:15:21 UTC</createdTime>
+<generatorID>6AE8EB1A-09A4-9883-1761-6C98E6DD27E6</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04E8CB5F-0A31-C7C0-A823-12320FD6901C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

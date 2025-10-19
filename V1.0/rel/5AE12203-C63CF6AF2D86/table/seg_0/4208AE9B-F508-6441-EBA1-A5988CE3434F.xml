@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4208AE9B-F508-6441-EBA1-A5988CE3434F" name="Marka_Automobil">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 08:52:34 UTC</createdTime>
+<generatorID>0D181707-9A39-A009-9623-CE0C5E7A3206</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Marka_A_ID" id="7CCDC180-D702-946B-96F4-F214EA25D3B6">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 08:52:34 UTC</createdTime>
+<generatorID>16F16A4E-D471-15DB-1931-E526CF6D648B</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ime" id="F30982DD-8926-605C-67D2-75855FF60013">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 08:52:34 UTC</createdTime>
+<generatorID>3B2D908B-28D8-8F76-A165-C4D8B4BE362A</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="50B43E76-192A-5885-F686-C39C75E1FC03" name="Marka_Automobil_PK">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 08:52:34 UTC</createdTime>
+<generatorID>A06BC6B5-469D-9D9D-CF10-5BF7D065EBB8</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CCDC180-D702-946B-96F4-F214EA25D3B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="12BB5594-A80D-B1F3-EDD6-F556B5D9573E" name="Deo_Marka">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 08:52:34 UTC</createdTime>
+<generatorID>436A133C-869F-A81E-462D-788B9B5A4E2F</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Attribute_1" id="717CA454-D4C3-B424-8657-6521F6A27B50">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 09:06:11 UTC</createdTime>
+<generatorID>A9CC4B6A-5CEB-93EA-172F-BC19FDB3B693</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Naziv" id="9FB0920F-9E6B-A8FD-C190-A64AF870AF2B">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 09:06:11 UTC</createdTime>
+<generatorID>24B17EDB-70DE-E0A5-ED1C-08350ABFC4F3</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Model_Automobil_Model_A_ID" id="4F93D52E-6A78-998D-E178-005D73EC759A">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 09:06:11 UTC</createdTime>
+<generatorID>2512189F-3913-D55F-6E88-2E455FE2AD3A</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F4476C8-A312-C621-F31B-9CC182DBE3EB" referredColumn="5272B195-78BB-E07D-950F-745235EDA8AA"/>
+</associations>
+</Column>
+<Column name="Model_Automobil_Marka_A_ID" id="3440ECA0-12DC-EC65-7CAA-6F73D59BFE2B">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 09:06:11 UTC</createdTime>
+<generatorID>74FC0409-C07E-434F-0823-B5F28B9017C7</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F4476C8-A312-C621-F31B-9CC182DBE3EB" referredColumn="EA708BC3-2329-5828-0190-4DBA94C2F02F"/>
+</associations>
+</Column>
+<Column name="Deo_ID_1" id="F95EE9F9-17D3-C101-E422-46817A1BF197">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 10:36:21 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F999C35-4AE6-066B-8DBB-D5A06762AB2D" referredColumn="717CA454-D4C3-B424-8657-6521F6A27B50"/>
+</associations>
+</Column>
+<Column name="Attribute_11" id="2542A8A1-5939-B221-149D-48BB148AC442">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 22:15:21 UTC</createdTime>
+<generatorID>560EDA00-10DC-76B6-69F0-F272247D2A13</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="61D36803-3DA1-07AF-607C-5DF9C1D76383" name="Deo_Marka_PK">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 09:06:11 UTC</createdTime>
+<generatorID>3F9A53CF-EAD0-9150-46B6-63EFA010E837</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="717CA454-D4C3-B424-8657-6521F6A27B50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4735CF27-E703-569E-8F5A-8DB41EDEE6BD" name="Deo_Marka__IDX">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 10:36:21 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F2D03B4D-C81E-B416-B69E-C6AFC940F38A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="F95EE9F9-17D3-C101-E422-46817A1BF197"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E44A7F6-5420-9AE8-0658-5853F23167BE" name="Deo_Marka_Deo_Marka_FK">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 09:06:11 UTC</createdTime>
+<generatorID>F2D03B4D-C81E-B416-B69E-C6AFC940F38A</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F95EE9F9-17D3-C101-E422-46817A1BF197"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="97B993D4-C5A9-94C4-6517-5216981468AF" name="Deo_Marka_Model_Automobil_FK">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 09:06:11 UTC</createdTime>
+<generatorID>F0AB7012-4A64-8023-389E-19B91E482220</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F93D52E-6A78-998D-E178-005D73EC759A"/>
+<colUsage columnID="3440ECA0-12DC-EC65-7CAA-6F73D59BFE2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

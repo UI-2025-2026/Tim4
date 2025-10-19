@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="C1CB3F9E-08F9-0009-C184-AD368924811E">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 08:33:01 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

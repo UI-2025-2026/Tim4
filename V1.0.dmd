@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="V1.0" id="A2806D13-1F7F-5D56-9583-433B73BD3FC8" version="3.5">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 08:33:01 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A2806D13-1F7F-5D56-9583-433B73BD3FC8</designId>
+</OSDM_Design>

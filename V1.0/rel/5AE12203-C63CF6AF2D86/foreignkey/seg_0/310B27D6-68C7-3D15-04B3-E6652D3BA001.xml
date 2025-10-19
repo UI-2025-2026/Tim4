@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="310B27D6-68C7-3D15-04B3-E6652D3BA001" containerWithKeyObject="9447AB6A-4596-6A73-E455-ECB71798D5BD" localFKIndex="D1110A31-D410-107B-D0DC-8DE26ACA80DF" name="Faktura_Roba_Stavka_Roba_FK">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 22:15:21 UTC</createdTime>
+<generatorID>2F4BA995-95A1-5552-E878-429583AB62C1</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<referredTableLongName>Roba</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C87EF93F-5D9B-F749-D630-DEF66A9A6E6F</referredTableID>
+<keyObject>C1DCEBE3-32A1-D893-2F01-E0A169713A18</keyObject>
+<referredKeyID>C1DCEBE3-32A1-D893-2F01-E0A169713A18</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Roba_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

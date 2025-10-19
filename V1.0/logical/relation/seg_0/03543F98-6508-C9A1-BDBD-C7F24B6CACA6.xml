@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Radni_Nalog_Zaposleni" directorySegmentName="seg_0" id="03543F98-6508-C9A1-BDBD-C7F24B6CACA6">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 22:13:42 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<engineerTo>
+<item key="5AE12203-804C-CEFA-5C9D-C63CF6AF2D86" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>D6B179F4-7684-41ED-4E53-4F5FB8CB080E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2F31EE8D-3085-72C3-8C0A-ADE9CF10AD8E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

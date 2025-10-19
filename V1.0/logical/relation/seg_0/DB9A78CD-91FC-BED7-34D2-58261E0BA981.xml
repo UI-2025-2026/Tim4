@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_7" directorySegmentName="seg_0" id="DB9A78CD-91FC-BED7-34D2-58261E0BA981">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 09:05:32 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<engineerTo>
+<item key="5AE12203-804C-CEFA-5C9D-C63CF6AF2D86" value="true"/>
+</engineerTo>
+<sourcePk>3D8C10C3-BBFA-2A16-09D4-45F26BBD132A</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2EA5E7AC-1135-1F5D-B247-EDB5F0998602</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0CB17944-A0C2-06DA-5361-AED06611614C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C32122B3-209D-96D6-468B-6F15CAE426CE" name="Radni_Nalog_Zaposleni">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 22:15:21 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Radni_Nalog_Automobil_Model_A_ID" id="07E7F028-FF03-B126-538E-64B4F1125996">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 22:15:21 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D324B7EA-D409-86DB-1E3D-0513DC554786" referredColumn="7AE5CA9E-A82A-3423-9491-AF026ED959D9"/>
+</associations>
+</Column>
+<Column name="Radni_Nalog_Automobil_Marka_A_ID" id="D656D987-0751-1796-FC1A-5612D5EBB0A5">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 22:15:21 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D324B7EA-D409-86DB-1E3D-0513DC554786" referredColumn="B965E66C-14FA-3E9D-344A-F37FCBB5914A"/>
+</associations>
+</Column>
+<Column name="Radni_Nalog_Automobil_Auto_ID" id="19CE0A48-D7FB-ECA4-1DED-B232EDA3A11B">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 22:15:21 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D324B7EA-D409-86DB-1E3D-0513DC554786" referredColumn="25C1DBA7-B9D4-2338-707C-2BC495DA7871"/>
+</associations>
+</Column>
+<Column name="Radni_Nalog_Automobil_Klijent_Klijent_ID" id="B91C96E7-FE86-542A-79CC-5DF4E4FA95C4">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 22:15:21 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D324B7EA-D409-86DB-1E3D-0513DC554786" referredColumn="DB4394EE-DDA0-C97D-9786-D480B7E29F13"/>
+</associations>
+</Column>
+<Column name="Zaposleni_Zaposleni_ID" id="9B04C551-5382-A237-FC2E-F234313940A0">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 22:15:21 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F2F579B-CD0D-B109-5D3F-1CE41F77E7C8" referredColumn="7537C57E-3BF7-17A1-1CB6-00F1968629D4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BB119D28-61A3-9921-29B7-0767BD06678B" name="Radni_Nalog_Zaposleni_PK">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 22:15:21 UTC</createdTime>
+<ownerDesignName>V1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07E7F028-FF03-B126-538E-64B4F1125996"/>
+<colUsage columnID="D656D987-0751-1796-FC1A-5612D5EBB0A5"/>
+<colUsage columnID="19CE0A48-D7FB-ECA4-1DED-B232EDA3A11B"/>
+<colUsage columnID="B91C96E7-FE86-542A-79CC-5DF4E4FA95C4"/>
+<colUsage columnID="9B04C551-5382-A237-FC2E-F234313940A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="279EE242-6350-BEF5-FC36-F6A7ADEA08F3" name="Radni_Nalog_Zaposleni_Radni_Nalog_FK">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 22:15:21 UTC</createdTime>
+<generatorID>03543F98-6508-C9A1-BDBD-C7F24B6CACA6</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07E7F028-FF03-B126-538E-64B4F1125996"/>
+<colUsage columnID="D656D987-0751-1796-FC1A-5612D5EBB0A5"/>
+<colUsage columnID="19CE0A48-D7FB-ECA4-1DED-B232EDA3A11B"/>
+<colUsage columnID="B91C96E7-FE86-542A-79CC-5DF4E4FA95C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DBFA29B2-5C59-9098-C4F4-6C27EB8D01E7" name="Radni_Nalog_Zaposleni_Zaposleni_FK">
+<createdBy>linta</createdBy>
+<createdTime>2025-10-19 22:15:21 UTC</createdTime>
+<generatorID>03543F98-6508-C9A1-BDBD-C7F24B6CACA6</generatorID>
+<ownerDesignName>V1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B04C551-5382-A237-FC2E-F234313940A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
